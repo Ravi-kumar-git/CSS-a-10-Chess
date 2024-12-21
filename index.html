@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Chess</title>
+    <style>
+        table {
+            /* padding: 10px; */
+            border: 5px solid black;
+            width: 50%;
+            cursor: pointer;
+        }
+        tr{
+            height: 80px;
+        }
+        td {
+            font-size: 50px;
+            text-align: center;          
+        }
+        .a>td:nth-child(even) {
+            background-color: green;
+            transition: 0.8s ease;
+        }
+        .b>td:nth-child(odd) {
+            background-color: green;
+            transition: 0.8s ease;
+        }
+        .c>td:nth-child(even) {
+            background-color: green;
+        }
+        .d>td:nth-child(odd) {
+            background-color: green;
+        }
+        .e>td:nth-child(even) {
+            background-color: green;
+        }
+        .f>td:nth-child(odd) {
+            background-color: green;
+        }
+        .g>td:nth-child(even) {
+            background-color: green;
+            transition: 0.8s ease;
+        }
+
+        .h>td:nth-child(odd) {
+            background-color: green;
+            transition: 0.8s ease;
+        }        
+        .a>.cell:hover{
+            transform: scale(1.1);
+        }
+        .b>.cell:hover{
+            transform: scale(1.1);
+        }
+        .g>.cell:hover{
+            transform: scale(1.1);
+        }
+        .h>.cell:hover{
+            transform: scale(1.1);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <table  cellspacing="4" cellpadding="4">
+        <tr class="a">
+            <td class="cell">&#9820;</td>
+            <td class="cell">&#9822;</td>
+            <td class="cell">&#9821;</td>
+            <td class="cell">&#9818;</td>
+            <td class="cell">&#9819;</td>
+            <td class="cell">&#9821;</td>
+            <td class="cell">&#9822;</td>
+            <td class="cell">&#9820;</td>
+        </tr>
+        <tr class="b">
+            <td class="cell">&#9823;</td>
+            <td class="cell">&#9823;</td>
+            <td class="cell">&#9823;</td>
+            <td class="cell">&#9823;</td>
+            <td class="cell">&#9823;</td> 
+            <td class="cell">&#9823;</td>
+            <td class="cell">&#9823;</td>
+            <td class="cell">&#9823;</td>
+        </tr>
+        <tr class="c">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="d">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="e">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="f">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="g">
+            <td class="cell">&#9817;</td>
+            <td class="cell">&#9817;</td>
+            <td class="cell">&#9817;</td>
+            <td class="cell">&#9817;</td>
+            <td class="cell">&#9817;</td>
+            <td class="cell">&#9817;</td>
+            <td class="cell">&#9817;</td>
+            <td class="cell">&#9817;</td>
+        </tr>
+        <tr class="h">
+            <td class="cell">&#9814;</td>
+            <td class="cell">&#9816;</td>
+            <td class="cell">&#9815;</td>
+            <td class="cell">&#9812;</td>
+            <td class="cell">&#9813;</td>
+            <td class="cell">&#9815;</td>
+            <td class="cell">&#9816;</td>
+            <td class="cell">&#9814;</td>
+        </tr>
+    </table>
+</body>
+
+</html>
